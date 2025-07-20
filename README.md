@@ -11,9 +11,9 @@ Do check that whatever device you're using to detect the drones can sniff packet
 If you're using OpenDroneID available on the App Store or Play Store, you'll have to disable scan throttling for your device, and run the app for ~5-10 minutes before all 16 drones are actually "in the air".
 You may also have to switch off Wi-Fi, disconnecting from your usual local network on your Android device, for the Wi-Fi chip to be able to scan.
 
-<img src="images/Dark.png" alt="Logo" width="50%">
+<img src="images/Dark.png" alt="Logo" width="75%">
 <br>
-<img src="images/OpenDroneID.jpg" alt="Logo" width="50%">
+<img src="images/OpenDroneID.jpg" alt="Logo" width="75%">
 
 ## Installation
 
