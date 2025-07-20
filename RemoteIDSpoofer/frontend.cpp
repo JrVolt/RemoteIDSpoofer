@@ -5,7 +5,7 @@ Frontend::Frontend(unsigned long idletime)
 {
   // AP parameters
   Serial.print("Setting soft-AP ... ");
-  if(WiFi.softAP("ESP_RIDS", "makkauhijau")) {
+  if(WiFi.softAP("RIDS", "Dr0n3Sp00f3r")) {
     Serial.print("Access Point IP: ");
     Serial.println(WiFi.softAPIP());
     Serial.println("Ready");
@@ -89,16 +89,16 @@ String Frontend::HTML() {
         <title>Remote ID Spoofer</title>
         <style>
           html{font-family:Helvetica; display:inline-block; margin:0px auto; text-align:center;}
-          body{margin-top: 50px;}
-          h1{color: #444444; margin: 50px auto 30px; font-size:6em;}
-          h3{color:#444444; margin-bottom: 50px;}
-          .configurator{font-size:4.0em; margin-bottom: 50px;}
-          .selection{font-size:1.0em;}
+          body{margin-top: 50px; background-color: #383E42; color: #DDDDDD;}
+          h1{color: #DDDDDD; margin: 50px auto 30px; font-size:6em;}
+          h3{color:#DDDDDD; margin-bottom: 50px;}
+          .configurator{font-size:4.0em; margin-bottom: 50px; color: #CCCCCC}
+          .selection{font-size:1.0em;color: #CCCCCC; background-color: #4a4f52; border: 1px solid #666666; border-radius: 20px; padding: 5px; ; margin-bottom: 15px;}
           .button{display:block; background-color:#f48100; border:none; color:white; padding: 13px 30px; text-decoration:none; font-size:6em; margin: 0px auto 35px; cursor:pointer; border-radius:4px;}
           .button-on{background-color:#f48100;}
           .button-on:active{background-color:#f48100;}
-          .button-off{background-color:#26282d;}
-          .button-off:active{background-color:#26282d;}
+          .button-off{background-color:#951617;}
+          .button-off:active{background-color:#951617;}
         </style>
       </head>
       <body onload="updateTime();">
